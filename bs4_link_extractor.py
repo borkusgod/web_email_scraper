@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # paste in address below
-url = 'https://integratedstaffing.ca'
+url = 'https://ormac.ca/'
 
 reqs = requests.get(url)
 soup = BeautifulSoup(reqs.text, 'html.parser')
